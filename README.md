@@ -3,6 +3,7 @@
 **question 1**：考虑使用动态规划算法处理。采取自底向上的方法，按照步长从小到大依次处理不同长度的矩阵链。下面是程序动态规划部分核心代码以及运行截图：
 
 '''
+
 void matrixChain(const vector<int>& dims) {
     int n = dims.size() - 1;
     vector<vector<int>> dp(n, vector<int>(n, 0));
@@ -22,4 +23,8 @@ void matrixChain(const vector<int>& dims) {
         }
     }
 }
+
 '''
+
+![matrix_chain](https://github.com/2005Andy/SE3701-01/raw/HW-4/matrix_chain.png)
+
